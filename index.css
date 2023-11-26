@@ -1,0 +1,51 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Playpen Sans;
+}
+.nav-a{
+    box-shadow: 0px 0px 5px 5px #12f7ff;
+}
+.nav-b:hover{
+    box-shadow: 0px 0px 5px 5px #12f7ff;
+    background-color: #12f7ff;
+    color: #1d002c;
+}
+.parallax-home img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#mainmoon{
+    mix-blend-mode: screen;
+}
+
+#about img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    margin-top: 40px;
+}
+.fish{
+    filter: drop-shadow(0 0 0.5rem #12f7ff);
+}
+.fish-div{
+    transition: 1s ease-in-out;
+}
+.fish-div:hover{
+    transform: scaleY(1.1);
+}
+::-webkit-scrollbar{
+    height: .1rem;
+    width: .5rem;
+}
+::-webkit-scrollbar-track{
+    background-color:#1d002c;
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color: #12f7ff;
+}
